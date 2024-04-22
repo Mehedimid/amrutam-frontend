@@ -9,6 +9,8 @@ import Home from './pages/Home/Home';
 import ErrorPage from './ErrorPage';
 import Layout from './Layout/Layout';
 import FindDoctors from './pages/Find Doctors/FindDoctors';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,15 @@ const router = createBrowserRouter([
       {
         path:"/find-doctors",
         element:<FindDoctors />
-      }
+      },
+      {
+        path:"/login",
+        element:<Login />
+      },
+      {
+        path:"/sign-up",
+        element:<SignUp />
+      },
     ],
   }
 ]);

@@ -1,7 +1,7 @@
 import React from "react";
 import Button1 from "../buttons/Button1";
 import Button2 from "../buttons/Button2";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navClass =
@@ -52,22 +52,22 @@ const Navbar = () => {
             </div>
             </ul>
           </div>
-          <h1 className="text-4xl font-semibold text-primary hidden md:block">
+          <Link to='/' className="text-4xl font-semibold text-primary hidden md:block">
             A M R U T A M
-          </h1>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-5">{navlinks}</ul>
+          <ul className="menu menu-horizontal px-1 lg:gap-8 gap-5">{navlinks}</ul>
         </div>
         <div className="navbar-end">
           <div className="gap-5 flex flex-col md:flex-row">
             {" "}
-            <div>
+            <Link to="/login">
               <Button2>Login</Button2>
-            </div>
-            <div className="hidden md:block">
+            </Link>
+            <Link to='/sign-up' className="hidden md:block">
               <Button1>Sign-Up</Button1>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

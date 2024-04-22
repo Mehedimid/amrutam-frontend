@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <div className='max-w-[1800px] mx-auto'>
         <div className='bg-secondary'><Navbar></Navbar></div>
-        <div className='min-h-screen w-10/12 mx-auto'> <Outlet></Outlet></div>
+        <div className='min-h-screen'> <Outlet></Outlet></div>
         <div>footer</div>
     </div>
   )

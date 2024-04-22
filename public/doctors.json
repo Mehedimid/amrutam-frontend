@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Prerna Narang",
+      "photo" : "https://img.freepik.com/free-photo/female-doctor-wearing-pandemic-medical-equipment_23-2148837616.jpg?t=st=1713806922~exp=1713810522~hmac=d0db9dd992f25d2d811a053f6578f416a768dc03719a88c817120aacc86d6480&w=740",
+      "specialization": "Male-Female Infertility",
+      "experience": "7 years",
+      "languages": ["English", "Hindi", "Marathi"],
+      "ratings": "4.5",
+      "video_consultation": "₹800",
+      "chat_consultation": "Free"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajesh Patel",
+      "photo" : "https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17826.jpg?t=st=1713806186~exp=1713809786~hmac=2748eaf7066e87331f974d7fac035e8de737838ae21da9ef6b2ab69400a43036&w=740",
+      "specialization": "Male-Female Infertility",
+      "experience": "10 years",
+      "languages": ["English", "Hindi", "Gujarati"],
+      "ratings": "4.8",
+      "video_consultation": "₹1000",
+      "chat_consultation": "Free"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Priya Sharma",
+      "photo" : "https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17826.jpg?t=st=1713806186~exp=1713809786~hmac=2748eaf7066e87331f974d7fac035e8de737838ae21da9ef6b2ab69400a43036&w=740",
+      "specialization": "Male-Female Infertility",
+      "experience": "5 years",
+      "languages": ["English", "Hindi", "Punjabi"],
+      "ratings": "4.3",
+      "video_consultation": "₹700",
+      "chat_consultation": "Free"
+    }
+  ]
+  
