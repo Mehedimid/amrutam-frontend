@@ -24,8 +24,8 @@ const FindDoctors = () => {
 
          {/* search bar  */}
           <div>
-            <label className="input border border-primary flex items-center gap-2">
-              <input type="text" className="grow" placeholder="Search" />
+            <label className="input w-64 lg:w-80 border border-primary flex items-center gap-2">
+              <input type="text" className="grow" placeholder="eg. Doctor, specialisation, clinic name" />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
